@@ -1,0 +1,8 @@
+FLASK_APP=app
+FLASK_DEBUG=True
+
+DB_NAME=user
+DB_USER=prasad89
+DB_PASSWORD=password
+DB_HOST=database
+DB_PORT=5432

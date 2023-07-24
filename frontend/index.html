@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>User API</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container mt-2">
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary" id="showUserButton" type="button">
+        Show all Users from the database
+      </button>
+      <table class="table" style="display: none">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+          </tr>
+        </thead>
+        <tbody id="userData"></tbody>
+      </table>
+      <button class="btn btn-success" id="addUserButton" type="button">
+        Add User to the database
+      </button>
+      <button class="btn btn-warning" id="updateUserButton" type="button">
+        Update user from the database
+      </button>
+      <button class="btn btn-danger" id="deleteUserButton" type="button">
+        Delete user from the database
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
