@@ -1,4 +1,4 @@
-FROM postgres:15.3-alpine3.18
+FROM postgres:17beta3-alpine3.20
 
 EXPOSE 5432
 
